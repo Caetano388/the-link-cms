@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_text_inserts_pull_quotes",
+  "info": {
+    "name": "Pull_Quote",
+    "icon": "quote-right"
+  },
+  "options": {},
+  "attributes": {
+    "Quote": {
+      "type": "string"
+    },
+    "Attribution": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_text_inserts_image_inserts",
+  "info": {
+    "name": "Image_Insert",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Caption": {
+      "type": "text"
+    }
+  }
+}

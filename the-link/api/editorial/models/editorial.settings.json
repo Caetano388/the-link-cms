@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "editorials",
+  "info": {
+    "name": "Editorial"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "authors": {
+      "plugin": "users-permissions",
+      "collection": "user",
+      "via": "editorials",
+      "dominant": true
+    },
+    "Body": {
+      "type": "richtext"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Pull_Quote": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text-inserts.pull-quote"
+    }
+  }
+}

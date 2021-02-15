@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_text_inserts_addl_body_paragraphs",
+  "info": {
+    "name": "Addl_Body_Paragraphs",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Section_Heading": {
+      "type": "string"
+    },
+    "Section_Body": {
+      "type": "richtext"
+    }
+  }
+}
