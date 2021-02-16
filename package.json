@@ -14,7 +14,6 @@
     "graphql": "^15.5.0",
     "knex": "<0.20.0",
     "pg": "^8.5.1",
-    "pg-native": "3.0.0",
     "strapi": "3.4.6",
     "strapi-admin": "3.4.6",
     "strapi-connector-bookshelf": "3.4.6",
