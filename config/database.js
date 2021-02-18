@@ -16,7 +16,6 @@ module.exports = ({ env }) => ({
       },
       options: {
         ssl: true,
-        debug: true,
         pool: {
           acquireTimeoutMilis: 60000,
         }
