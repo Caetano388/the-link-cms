@@ -4,10 +4,10 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "install": "yarn install",
+    "install": "yarn",
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "npm run install && strapi build",
+    "build": "strapi build",
     "strapi": "strapi"
   },
   "devDependencies": {},
