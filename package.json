@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "install": "rm -rf node_modules && yarn install",
+    "install": "yarn install",
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "npm run install && strapi build",
