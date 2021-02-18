@@ -7,7 +7,7 @@
     "install": "rm -rf node_modules && yarn install",
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build",
+    "build": "npm run install && strapi build",
     "strapi": "strapi"
   },
   "devDependencies": {},
