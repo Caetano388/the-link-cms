@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_buttons_link_ctas",
+  "info": {
+    "name": "Link_CTA",
+    "icon": "sign-out-alt"
+  },
+  "options": {},
+  "attributes": {
+    "Link_Title": {
+      "type": "string"
+    },
+    "Link_URL": {
+      "type": "string"
+    }
+  }
+}

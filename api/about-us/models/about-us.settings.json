@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "name": "About Us",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Page_Body": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text-inserts.addl-body-paragraphs"
+    }
+  }
+}

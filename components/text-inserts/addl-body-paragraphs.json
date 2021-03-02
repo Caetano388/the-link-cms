@@ -2,7 +2,8 @@
   "collectionName": "components_text_inserts_addl_body_paragraphs",
   "info": {
     "name": "Addl_Body_Paragraphs",
-    "icon": "align-justify"
+    "icon": "align-justify",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,6 +12,17 @@
     },
     "Section_Body": {
       "type": "richtext"
+    },
+    "Images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

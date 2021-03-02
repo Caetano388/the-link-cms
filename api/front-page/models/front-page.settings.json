@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "front_pages",
+  "info": {
+    "name": "Front Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Hero_Images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Site_Info": {
+      "type": "text"
+    },
+    "Link_CTA": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.link-cta"
+    }
+  }
+}
