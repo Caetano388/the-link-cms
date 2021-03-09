@@ -41,6 +41,16 @@
         "text-inserts.image-insert",
         "text-inserts.pull-quote"
       ]
+    },
+    "author": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Location": {
+      "type": "string"
     }
   }
 }
