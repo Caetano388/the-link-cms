@@ -2,15 +2,20 @@
   "collectionName": "components_text_inserts_pull_quotes",
   "info": {
     "name": "Pull_Quote",
-    "icon": "quote-right"
+    "icon": "quote-right",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Quote": {
-      "type": "string"
+      "type": "text"
     },
     "Attribution": {
       "type": "string"
+    },
+    "embedded_tweet": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
